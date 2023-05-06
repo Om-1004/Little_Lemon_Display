@@ -1,0 +1,119 @@
+body{
+    background-color: #EDEFEE;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+article img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #333333;
+    padding: 7px;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    /* Gap is applied to section not article */
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article{
+    border-radius: 1rem;
+}
+
+article a{
+    font-size: 12px;
+}
+
+main article{
+    background-color: #fbcfa679;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+article{
+    flex: 1;
+}
+
+article ul{
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+article ul li{
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+
+footer p {
+    border-top: black;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+    font-size: 13px;
+}
+
+#sale-bg-pic{
+    background-image: url("https://img.freepik.com/premium-photo/food-background-with-place-text-with-different-kinds-pasta-tomatoes-herbs-mushrooms-eggs-seasonings-scattered-light-marble-background-top-view-italian-cuisine-concept_90258-3528.jpg");
+    color: black;
+    background-size: cover;
+    text-align: right;
+    border-radius: 2rem;
+    padding: 2rem;
+}
